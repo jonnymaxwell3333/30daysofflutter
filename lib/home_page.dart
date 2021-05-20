@@ -10,9 +10,15 @@ class homepage extends StatelessWidget {
       appBar: AppBar(centerTitle:true,
       title: Text("darshit app"),
       ),
-      body:Center(child: Text("this is my $days of trials by $myname")
+      body:Center(child:Container(
+        child:Text("this is my $days of trials by $myname")
+         )
       ,),
       drawer: Drawer(),
     );
   }
+
+  
+
+
 }
